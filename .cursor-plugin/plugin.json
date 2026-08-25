@@ -1,0 +1,20 @@
+{
+  "name": "wordpress-com",
+  "displayName": "WordPress.com",
+  "version": "0.1.0",
+  "description": "Build & Publish with WordPress",
+  "author": {
+    "name": "Automattic"
+  },
+  "repository": "https://github.com/Automattic/cursor-wpcom-plugin",
+  "homepage": "https://wordpress.com",
+  "license": "GPL-2.0-or-later",
+  "logo": "assets/wordpress-logo-square.png",
+  "keywords": [
+    "wordpress.com",
+    "wordpress",
+    "content-management",
+    "site-management",
+    "mcp"
+  ]
+}
