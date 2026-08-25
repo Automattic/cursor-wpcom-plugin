@@ -1,0 +1,23 @@
+---
+description: Safely read and manage WordPress.com sites through the official WordPress.com MCP server
+alwaysApply: true
+---
+
+# Work safely with WordPress.com
+
+- Use the official WordPress.com MCP server as the primary source for account and site state. Use a public page only to verify the visitor-facing result.
+- Identify the exact site before a site-scoped read or write. If the name or address is ambiguous, resolve it before continuing.
+- Read the current state before changing it. If the requested state already exists, report that plainly and do not make a redundant write.
+- Make the smallest change that satisfies the request. Preserve unrelated content, blocks, settings, and metadata.
+
+## Authorization
+
+- Read-only actions do not need confirmation.
+- A clear request in the current conversation can authorize the exact reversible draft or private edit it describes. Do not add a redundant confirmation step unless the MCP server requires one.
+- Immediately before publishing, scheduling, launching, deleting, changing visibility or domains, modifying a site-wide template, moderating destructively, or installing, activating, updating, or removing plugins or themes, state the exact site, change, and likely impact, then wait for explicit approval.
+- Never assert a confirmation field unless the user has approved that exact action. Do not bundle unrelated consequential actions under one approval.
+
+## Verify and explain
+
+- After a write, read back the relevant state when possible and report what changed. Return edit, preview, or public links supplied by WordPress.com.
+- If an action is unavailable, distinguish among authentication, disabled MCP actions, site permissions, plan or platform limitations, and an unsupported capability. Do not guess which condition applies.

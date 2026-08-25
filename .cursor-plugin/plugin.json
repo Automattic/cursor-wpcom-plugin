@@ -10,6 +10,7 @@
   "homepage": "https://wordpress.com",
   "license": "GPL-2.0-or-later",
   "logo": "assets/wordpress-logo-square.png",
+  "rules": "rules",
   "keywords": [
     "wordpress.com",
     "wordpress",

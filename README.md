@@ -14,6 +14,7 @@ The plugin connects Cursor directly to WordPress.com so you can create or manage
 
 - `.cursor-plugin/plugin.json` describes the Cursor plugin.
 - `mcp.json` connects Cursor to the official WordPress.com remote MCP server.
+- `rules/wordpress-com-operations.mdc` applies a safe read-before-write workflow to WordPress.com actions.
 - `skills/edit-wordpress-block-content/SKILL.md` guides Cursor to create native, editable WordPress block content.
 
 The plugin contains no executable hooks, install scripts, runtime dependencies, or bundled credentials.
