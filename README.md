@@ -15,6 +15,7 @@ The plugin connects Cursor directly to WordPress.com so you can create or manage
 - `.cursor-plugin/plugin.json` describes the Cursor plugin.
 - `mcp.json` connects Cursor to the official WordPress.com remote MCP server.
 - `skills/edit-wordpress-block-content/SKILL.md` guides Cursor to create native, editable WordPress block content.
+- `commands/wordpress-status.md` adds a read-only connection and site-listing command.
 
 The plugin contains no executable hooks, install scripts, runtime dependencies, or bundled credentials.
 
@@ -63,6 +64,10 @@ Draft a post announcing our autumn event. Match the site's existing typography a
 
 ```text
 Change the call-to-action text on my About page while preserving the rest of its layout.
+```
+
+```text
+/wordpress-status
 ```
 
 ## Authentication and Security
