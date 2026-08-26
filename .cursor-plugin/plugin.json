@@ -12,6 +12,7 @@
   "logo": "assets/logo.svg",
   "skills": "skills",
   "mcpServers": "mcp.json",
+  "commands": "commands",
   "keywords": [
     "wordpress.com",
     "wordpress",
