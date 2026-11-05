@@ -2,7 +2,7 @@
   "name": "wordpress-com",
   "displayName": "WordPress.com",
   "version": "0.1.0",
-  "description": "Build, publish, and manage WordPress.com sites directly from Cursor.",
+  "description": "Build and publish on WordPress.com, or on any self-hosted WordPress site with Jetpack.",
   "author": {
     "name": "Automattic"
   },
