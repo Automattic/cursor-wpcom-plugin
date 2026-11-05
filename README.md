@@ -1,4 +1,4 @@
-# WordPress.com for Cursor
+# WordPress for Cursor
 
 Build and publish on WordPress.com, or on any self-hosted WordPress site with Jetpack.
 
