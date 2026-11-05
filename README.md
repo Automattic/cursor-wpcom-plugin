@@ -1,6 +1,6 @@
 # WordPress.com for Cursor
 
-Connect [Cursor](https://cursor.com) to WordPress.com through the official WordPress.com Model Context Protocol (MCP) server.
+Build and publish on WordPress.com, or on any self-hosted WordPress site with Jetpack.
 
 [**View the WordPress.com plugin on the Cursor Marketplace &rarr;**](https://cursor.com/marketplace/wordpress)
 
