@@ -2,6 +2,8 @@
 
 Build and publish on WordPress.com, or on any self-hosted WordPress site with Jetpack.
 
+Works with any site hosted on WordPress.com or any self-hosted WordPress site connected through the [Jetpack plugin](https://wordpress.org/plugins/jetpack/). Authenticate through WordPress.com to set up the connection and start chatting.
+
 [**View the WordPress.com plugin on the Cursor Marketplace &rarr;**](https://cursor.com/marketplace/wordpress)
 
 ## Build & Publish with WordPress
