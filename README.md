@@ -8,11 +8,11 @@ Works with any site hosted on WordPress.com or any self-hosted WordPress site co
 
 ## Build & Publish with WordPress
 
-Tell Cursor what kind of WordPress.com site you want—such as a portfolio, restaurant site, blog, or store—and provide the business, audience, and page requirements. WordPress can plan the site, prepare its content and design, and launch it.
+Tell Cursor what kind of WordPress site you want—such as a portfolio, restaurant site, blog, or store—and provide the business, audience, and page requirements. WordPress can plan the site, prepare its content and design, and launch it.
 
-For an existing site, connect your account to draft, publish, and schedule posts; review traffic; moderate comments; manage plugins; and change settings. WordPress.com exposes more than 70 site capabilities through the integration.
+For an existing site, connect your account to draft, publish, and schedule posts; review traffic; moderate comments; manage plugins; and change settings. The integration exposes more than 70 site capabilities.
 
-The plugin connects Cursor directly to WordPress.com so you can create or manage a site through conversation. Available actions depend on your WordPress.com permissions, site plan, platform capabilities, and enabled MCP settings.
+The plugin connects Cursor to your WordPress sites so you can work through conversation. Available actions depend on your site permissions, hosting platform, plan, and enabled MCP settings.
 
 ## Included Components
 
@@ -48,18 +48,20 @@ After Cursor reloads:
 
 After publication, install **WordPress.com** directly from Cursor's marketplace instead.
 
-## WordPress.com Setup
+## Connection Setup
 
-WordPress.com gives you control over which MCP actions are available to connected AI clients. Enable the account and site actions you want Cursor to use at:
+For a self-hosted site, install and activate the [Jetpack plugin](https://wordpress.org/plugins/jetpack/) and connect it to your WordPress.com account. Both WordPress.com and Jetpack-connected sites use WordPress.com for authentication.
+
+Enable the account and site actions you want Cursor to use at:
 
 https://wordpress.com/me/mcp
 
-If Cursor reports that an ability is disabled, review those settings and retry the request. Enabling an action does not bypass WordPress.com user capabilities, site permissions, plan requirements, or confirmations.
+If Cursor reports that an ability is disabled, review those settings and retry the request. Enabling an action does not bypass user capabilities, site permissions, plan requirements, or confirmations.
 
 ## Example Requests
 
 ```text
-List my WordPress.com sites and summarize their recent posts.
+List my WordPress sites and summarize their recent posts.
 ```
 
 ```text
